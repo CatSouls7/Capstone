@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    background-image: url('../images/Mountain.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.navbar-logo {
+    flex: 1;
+    font-size: 2rem;
+    user-select: none;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-links:hover a {
+    color: orange;
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    .active {
+        display: block;
+    }
+}

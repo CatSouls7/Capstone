@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desc {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 5rem;
+}
+
+.desc p {
+    text-decoration: underline;
+}
+
+.test {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 3rem;
+}

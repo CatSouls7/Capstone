@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mainTitle {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.employees {
+    color: white;
+    font-size: 2rem;
+}
