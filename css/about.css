@@ -11,3 +11,10 @@
     color: #fff;
     padding-top: 5rem;
 }
+
+.powerpoint {
+    display: flex;
+    padding-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}

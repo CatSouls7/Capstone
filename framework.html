@@ -28,10 +28,71 @@
 
     <div class="title">
         <h1 class="mainTitle">Cybersecurity Framework</h1>
-        <p class="employees">Employees:</p>
+        <p>Click on the topics to expand information!</p>
+        <a href="#" onclick="thisFunction(modal1.id)">Employees</a>
+        <dialog id="modal1">
+            <ul id="item1">
+                <li>Implement an employee training and awareness program to educate employees about cyber threats, safe computing practices, and the importance of information security.</li>
+                <li>Enforce strong password policies, including regular password changes and the use of complex passwords.</li>
+                <li>Conduct background checks and screening processes for new employees to minimize insider threats.</li>
+                <li>Develop and enforce acceptable use policies for company systems and networks.</li>
+                <li>Regularly communicate security updates, policies, and best practices to employees.</li>
+                <li><button id="btn_close1" onclick="closeFunction(modal1.id)">Close</button></li>
+            </ul>
+        </dialog>
+        <a href="#" onclick="thisFunction(modal2.id)">Physical Security</a>
+        <dialog id="modal2">
+            <ul id="item2">
+                <li>Control physical access to critical areas, such as data centers and server rooms, using locks, access cards, and biometric controls.</li>
+                <li>Monitor and log access to sensitive areas and maintain visitor logs.</li>
+                <li>Install and maintain security cameras, alarms, and motion sensors to detect unauthorized access attempts.</li>
+                <li>Regularly test physical security controls, such as conducting penetration tests and security audits.</li>
+                <li>Implement procedures for secure disposal of physical media, such as hard drives and documents containing sensitive information.</li>
+                <li><button id="btn_close2" onclick="closeFunction(modal2.id)">Close</button></li>
+            </ul>
+        </dialog>
+        <a href="# " onclick="thisFunction(modal3.id)">Network Security</a>
+        <dialog id="modal3">
+            <ul id="item3">
+                <li>Employ firewalls and Intrusion Detection/Prevention Systems (IDS/IPS) to monitor and filter network traffic.</li>
+                <li>Implement strong network segmentation to minimize the impact of a potential breach.</li>
+                <li>Regularly update and patch network devices, including routers, switches, and access points.</li>
+                <li>Encrypt sensitive data in transit using secure protocols, such as HTTPS or VPNs.</li>
+                <li>Conduct regular vulnerability assessments and penetration testing on the network infrastructure.</li>
+                <li><button id="btn_close3" onclick="closeFunction(modal3.id)">Close</button></li>
+            </ul>
+        </dialog>
+        <a href="# " onclick="thisFunction(modal4.id)">IoT Devices</a>
+        <dialog id="modal4">
+            <ul id="item4">
+                <li>Establish a comprehensive inventory of IoT devices used within the organization.</li>
+                <li>Ensure that IoT devices are configured with strong, unique passwords and do not use default credentials.</li>
+                <li>Regularly update and patch IoT devices with the latest firmware and security updates.</li>
+                <li>Segment IoT devices from the main network to isolate potential security risks.</li>
+                <li>Monitor IoT devices for anomalous behavior and implement intrusion detection systems specifically designed for IoT environments.</li>
+                <li><button id="btn_close4" onclick="closeFunction(modal4.id)">Close</button></li>
+            </ul>
+        </dialog>
+        <a href="# " onclick="thisFunction(modal5.id)">Information Security</a>
+        <dialog id="modal5">
+            <ul id="item5">
+                <li>Develop and enforce information security policies and procedures, including incident response plans and data classification guidelines.</li>
+                <li>Implement access controls to ensure that only authorized personnel can access sensitive information.</li>
+                <li>Regularly backup critical data and test the restoration process to ensure data integrity.</li>
+                <li>Encrypt sensitive data at rest, both on-premises and in the cloud.</li>
+                <li>Regularly conduct security assessments and audits to identify vulnerabilities and implement appropriate safeguards.</li>
+                <li><button id="btn_close5" onclick="closeFunction(modal5.id)">Close</button></li>
+            </ul>
+        </dialog>
 
     </div>
 
+    <div class="depth">
+        <a href="depth.html" class="depth-btn">Click for more in depth!</a>
+    </div>
+
 </body>
+
+<script src="js/framework.js "></script>
 
 </html>

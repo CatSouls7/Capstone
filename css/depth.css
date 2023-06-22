@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+}
+
+.doc {
+    padding-top: 1rem;
+}
+
+@media (max-width: 800px) {
+    .title h1 {
+        font-size: 1rem;
+    }
+    .doc {
+        width: 700px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title h1 {
+        font-size: 1rem;
+    }
+    .doc {
+        width: 500px;
+    }
+}

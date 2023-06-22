@@ -5,18 +5,141 @@
 }
 
 .title {
+    padding-top: 5rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    color: white;
+    font-size: 2rem;
     align-items: center;
-    gap: 1rem;
+    justify-content: center;
 }
 
 .mainTitle {
     color: white;
     text-decoration-line: underline;
-}
-
-.employees {
-    color: white;
     font-size: 2rem;
 }
+
+.title p {
+    font-size: 1rem;
+    color: orange;
+}
+
+.title a {
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+.title button {
+    background-color: white;
+    border-radius: 0.5;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.title button:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+#btn_close1,
+#btn_close2,
+#btn_close3,
+#btn_close4,
+#btn_close5 {
+    font-size: 20px;
+    position: fixed;
+    left: 45%;
+}
+
+#item1 li:nth-child(6),
+#item2 li:nth-child(6),
+#item3 li:nth-child(6),
+#item4 li:nth-child(6),
+#item5 li:nth-child(6) {
+    list-style-type: none;
+}
+
+#modal1::backdrop,
+#modal2::backdrop,
+#modal3::backdrop,
+#modal4::backdrop,
+#modal5::backdrop {
+    background: black;
+    opacity: 0.5;
+}
+
+#modal1[open],
+#modal2[open],
+#modal3[open],
+#modal4[open],
+#modal5[open] {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 20px;
+}
+
+#item1,
+#item2,
+#item3,
+#item4,
+#item5 {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.depth {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.depth a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.depth a:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+
+/*@media (max-width: 1000px) {
+    .mainTitle {
+        font-size: 1rem;
+    }
+    .title a {
+        font-size: 1rem;
+    }
+    #item1,
+    #item2,
+    #item3,
+    #item4,
+    #utem5 {
+        font-size: 0.75rem;
+    }
+}*/
