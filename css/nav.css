@@ -8,6 +8,7 @@
 body {
     height: 100vh;
     background-color: #000;
+    backdrop-filter: blur(2px);
     background-image: url('../images/Mountain.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;

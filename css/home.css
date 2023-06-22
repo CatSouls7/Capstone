@@ -10,7 +10,6 @@
 
 .title {
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -46,6 +45,15 @@
     transition: .5s;
     color: black;
     text-shadow: none;
+}
+
+@media (max-width: 900px) {
+    .title h1 {
+        font-size: 3rem;
+    }
+    .title p {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 600px) {

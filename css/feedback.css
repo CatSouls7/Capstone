@@ -5,10 +5,19 @@
 }
 
 .title {
+    width: 100%;
     padding-top: 5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
     color: #fff;
+}
+
+.test {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
